@@ -1,0 +1,26 @@
+The Rank of Processor is: 0, the nproc is: 4
+1-processor 0 send 1 to 1-processor
+processor 0 receive 1 from 3-processor
+1-processor 0 send 0 to 1-processor
+processor 0 receive 0 from 3-processor
+The Rank of Processor is: 1, the nproc is: 4
+2-processor 1 send 1 to 2-processor
+process 1 got 1
+***********************
+2-processor 1 send 0 to 2-processor
+process 1 got 0
+***********************
+The Rank of Processor is: 2, the nproc is: 4
+2-processor 2 send 1 to 3-processor
+process 2 got 1
+***********************
+2-processor 2 send 0 to 3-processor
+process 2 got 0
+***********************
+The Rank of Processor is: 3, the nproc is: 4
+process 3 got 1
+***********************
+processor 3 send 1 to 0-processor
+process 3 got 0
+***********************
+processor 3 send 0 to 0-processor
